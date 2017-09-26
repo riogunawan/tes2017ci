@@ -1,0 +1,69 @@
+body {
+    font-family: Open Sans;
+}
+
+.navigasi-batas {
+    margin-top: 50px;
+}
+
+#berita .judul {
+    padding-bottom: 50px;
+}
+
+#berita .kotak {
+    background: #fff;
+    padding: 10px;
+    height: 210px;
+    border-top: 1px solid blue;
+}
+
+#berita .tag {
+    position: absolute;
+    bottom: 1px;
+}
+
+#berita .kategori {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.foto-berita-list {
+    height: 190px;
+    /*width: 100%;*/
+    margin: auto;
+    display: block;
+}
+
+#berita .detail-berita {
+    height: auto;
+}
+
+#berita .detail-berita .foto-berita-list {
+    margin-top: 20px;
+}
+
+#berita .detail-berita .isi {
+    margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+    #berita .kotak {
+        height: auto;
+    }
+
+    #berita .xs-kotak {
+        height: 180px;
+    }
+
+    .foto-berita-list {
+        height: auto;
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+}
